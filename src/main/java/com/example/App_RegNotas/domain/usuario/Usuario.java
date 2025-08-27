@@ -1,4 +1,4 @@
-package com.example.App_RegNotas.usuario;
+/*package com.example.App_RegNotas.domain.usuario;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -25,6 +25,7 @@ public class Usuario implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotBlank
+    @Column(unique = true)
     private String numeroIdentificacion;
     @NotBlank
     private String password;
@@ -66,3 +67,4 @@ public class Usuario implements UserDetails {
         return true;
     }
 }
+*/

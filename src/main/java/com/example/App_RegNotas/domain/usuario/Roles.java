@@ -1,4 +1,4 @@
-package com.example.App_RegNotas.usuario;
+package com.example.App_RegNotas.domain.usuario;
 
 public enum Roles {
     ADMIN,
